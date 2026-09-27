@@ -90,6 +90,13 @@ doc = false
 bench = false
 
 [[bin]]
+name = "reputation"
+path = "fuzz_targets/reputation.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
 name = "treasury_distribution"
 path = "fuzz_targets/treasury_distribution.rs"
 name = "staking"
@@ -97,3 +104,5 @@ path = "fuzz_targets/staking.rs"
 test = false
 doc = false
 bench = false
+
+
